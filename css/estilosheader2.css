@@ -1,0 +1,39 @@
+.header {
+   
+   
+    position: fixed;
+    padding-top: 20px;
+    font-size: 14px;
+    background: url(../imagenes/home3.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 14px;
+    height: 65px;
+    width: 100%;
+    left:0px;
+    top:0px;
+      
+    } 
+
+  
+a { 
+    text-decoration: none;
+    color: aliceblue;
+} 
+          @media(max-width:599px)  {
+            @media(max-height:822px)  {
+              
+                  
+            .footer {
+                position:relative;
+                height: 65px; 
+                text-align:left;
+                padding: 14px;
+                font-size: 10px;
+            }       
+          } 
+
+        }   
+    

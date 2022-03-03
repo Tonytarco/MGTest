@@ -1,0 +1,30 @@
+body {
+   
+    padding-top: 20px;
+    font-size: 14px;
+   
+    } 
+
+    .subtitle{
+        width: 100%;
+        text-align: center;
+        margin-top: 110px;
+        font-size: large;
+        color: rgb(44, 43, 43);
+    }
+    
+          @media(max-width:599px)  {
+            @media(max-height:822px)  {
+              
+                  
+            .footer {
+                position:relative;
+                height: 65px; 
+                text-align:left;
+                padding: 14px;
+                font-size: 10px;
+            }       
+          } 
+
+        }   
+    

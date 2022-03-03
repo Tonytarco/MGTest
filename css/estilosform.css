@@ -1,0 +1,155 @@
+:root {
+    --colorTextos: #49454567;
+}
+
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+  /*  background: #4568DC;
+    /* fallback for old browsers */
+   /* background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+   /* background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1{
+    
+    color:#e4e2e2;
+    font-weight: 500;
+    width: 99%;
+}
+h2{
+   
+    color:#e4e2e2;
+    font-weight: 350;
+    width: 99%;
+    padding-bottom: 25px;
+}
+form{
+    display: flex; 
+    background: rgb(61, 175, 166);
+    padding: 30px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    max-width: 350px;
+    margin:auto;
+    align-content: center;
+}
+
+.form{
+    width: 100%;
+    text-align: center;
+  
+}
+
+form .grupo{
+    position: relative;
+    margin: 5px 5px 5px 5px;
+    display:inline-block;
+}
+
+input{
+    background:#fff;
+    color: #c6c6c6;
+    font-size: 18px;
+    display: block;
+    width: 70px;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+select{
+    background:#fff;
+    color: #c6c6c6;
+    font-size: 14px;
+    display: block;
+   
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus,select:focus{ 
+    outline: none;
+    color: #5e5d5d;
+}
+
+label{
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+}
+
+input:focus~label,
+input:valid~label,
+select:focus~label,
+select:valid~label{
+    top: -20px;
+    font-size: 15px;
+    color: #f5f7f8;
+}
+
+.barra{
+    position: relative;
+    display: block;
+    width: 70px;
+}
+
+.barra::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: rgb(100, 98, 98);
+    transition: 0.3s ease width;
+    left: 0;
+}
+
+input:focus~.barra::before{
+    width: 100%;
+}
+
+
+button{
+    font-family: 'roboto';
+    display: inline-block;
+    background:#f8f6f6; 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    width: 35%;
+    margin: 30px 10px;
+    color: rgb(47, 151, 143);
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover{
+    
+    background:rgb(240, 184, 30); 
+    cursor: pointer;
+}
+@media screen and (max-width:500px){
+    form{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,28 @@
+body{
+	background-color: #f3f1f0;
+	font-family: sans-serif;
+  }
+  
+  .contenedor{
+    overflow: hidden;
+   }
+  .izquierda{
+  float: left; 
+  background-color: #f3f1f0;
+ 
+  }
+  .derecha{
+ 
+	 background-color: #f3f1f0;
+     
+   }
+
+ .title{
+     width: 100%;
+     text-align: center;
+     margin-top: 75px;
+     font-size: xx-large;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-decoration: underline;
+     color: rgb(139, 138, 139);
+ }
